@@ -14,7 +14,6 @@ class HuffmanHW {
                    == null
             && Character.isLetter(root.c)) {
  
-            // c is the character in the node
             System.out.println(root.c + ":" + s);
  
             return;
@@ -24,7 +23,6 @@ class HuffmanHW {
         printCode(root.right, s + "1");
     }
  
-    // main function
     public static void main(String[] args)
     {
  
